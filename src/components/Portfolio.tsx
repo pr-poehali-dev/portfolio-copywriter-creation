@@ -10,10 +10,19 @@ interface PortfolioItem {
   type: string;
   description: string;
   tags: string[];
+  link?: string;
 }
 
 const portfolioData: PortfolioItem[] = [
-
+  {
+    id: 1,
+    title: 'Статья для юридической фирмы',
+    category: 'Бизнес',
+    type: 'Статья',
+    description: 'Профессиональная статья для юридической компании о важных аспектах права и защиты интересов клиентов.',
+    tags: ['Юридические услуги', 'B2B', 'Экспертный контент'],
+    link: 'https://docs.google.com/document/d/11loNyZvJu-ZYernEG4I6k5xWR6isrhk5pUpmcN71CFA/edit?usp=sharing'
+  },
   {
     id: 2,
     title: 'Статья для бизнес-блога',
@@ -140,7 +149,7 @@ export default function Portfolio() {
                 <p className="text-muted-foreground mb-4 leading-relaxed">
                   {item.description}
                 </p>
-                <div className="flex flex-wrap gap-2">
+                <div className="flex flex-wrap gap-2 mb-4">
                   {item.tags.map((tag) => (
                     <span 
                       key={tag}
@@ -150,6 +159,17 @@ export default function Portfolio() {
                     </span>
                   ))}
                 </div>
+                {item.link && (
+                  <a 
+                    href={item.link}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-2 text-primary hover:underline text-sm font-medium"
+                  >
+                    <Icon name="ExternalLink" size={16} />
+                    Читать статью
+                  </a>
+                )}
               </CardContent>
             </Card>
           ))}

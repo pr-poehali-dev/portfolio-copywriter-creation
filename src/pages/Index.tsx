@@ -131,11 +131,11 @@ export default function Index() {
         <div className="max-w-4xl mx-auto">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="animate-fade-in">
-              <div className="w-full aspect-square rounded-2xl overflow-hidden">
+              <div className="w-full aspect-square rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-shadow duration-300 group">
                 <img 
                   src="https://cdn.poehali.dev/files/IMG_1245.JPG" 
                   alt="Анна Смирнова - копирайтер"
-                  className="w-full h-full object-cover"
+                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                 />
               </div>
             </div>

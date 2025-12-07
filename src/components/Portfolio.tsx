@@ -25,11 +25,12 @@ const portfolioData: PortfolioItem[] = [
   },
   {
     id: 2,
-    title: 'Статья для бизнес-блога',
-    category: 'Бизнес',
+    title: 'SEO-статья для онлайн-школы',
+    category: 'Образование',
     type: 'Статья',
-    description: 'Аналитическая статья о трендах электронной коммерции в 2024 году. Глубокий анализ рынка.',
-    tags: ['E-commerce', 'Аналитика', 'SEO']
+    description: 'Информационная статья о выборе современной профессии.',
+    tags: ['SEO', 'Образование', 'Карьера'],
+    link: 'https://docs.google.com/document/d/1ZOItzewvD30eebONCio1LjkNMr5_q2IdJcrqybtUB3w/edit?usp=sharing'
   },
   {
     id: 3,
@@ -66,7 +67,7 @@ const portfolioData: PortfolioItem[] = [
   }
 ];
 
-const categories = ['Все', 'Бизнес', 'Маркетинг', 'SMM', 'E-commerce'];
+const categories = ['Все', 'Бизнес', 'Образование', 'Маркетинг', 'SMM', 'E-commerce'];
 const types = ['Все типы', 'Лендинг', 'Статья', 'Email', 'Посты', 'Товары', 'Кейс'];
 
 export default function Portfolio() {

@@ -34,11 +34,12 @@ const portfolioData: PortfolioItem[] = [
   },
   {
     id: 3,
-    title: 'Email-рассылка для SaaS',
-    category: 'Маркетинг',
-    type: 'Email',
-    description: 'Серия из 5 писем для онбординга новых пользователей. Конверсия в платных клиентов выросла на 35%.',
-    tags: ['Email', 'SaaS', 'Конверсия']
+    title: 'Релокация для IT-специалистов',
+    category: 'IT',
+    type: 'Статья',
+    description: 'Экспертная статья для IT-специалистов о переезде в другую страну. Глубокий анализ целевой аудитории, изучение требований посольств и актуальных рейтингов стран для релокации.',
+    tags: ['IT', 'Релокация', 'Аналитика'],
+    link: 'https://docs.google.com/document/u/0/d/1sJqCm3odOAY0KO3TzBNEAvrn0sPkxW6yYT2BsPoe0fs/edit'
   },
   {
     id: 4,
@@ -51,23 +52,25 @@ const portfolioData: PortfolioItem[] = [
   },
   {
     id: 5,
-    title: 'Описания товаров',
-    category: 'E-commerce',
-    type: 'Товары',
-    description: 'Уникальные описания для 200+ товаров интернет-магазина. SEO-оптимизация и эмоциональный язык.',
-    tags: ['E-commerce', 'SEO', 'Продажи']
+    title: 'Подготовка к МГИМО: английский язык',
+    category: 'Образование',
+    type: 'Статья',
+    description: 'Статья для онлайн-школы на Дзен с практическими советами по подготовке к поступлению в МГИМО. Анализ целевой аудитории, изучение болей клиентов через Telegram-каналы школ и образовательные ресурсы.',
+    tags: ['Образование', 'Дзен', 'Английский язык'],
+    link: 'https://docs.google.com/document/d/110qJ1mSsgQCkjLBqTaeM_AguHesliyoO1fooZDuREwM/edit?usp=sharing'
   },
   {
     id: 6,
-    title: 'Кейс для консалтинга',
-    category: 'Бизнес',
-    type: 'Кейс',
-    description: 'Детальный кейс об увеличении продаж на 200% для компании из сферы B2B услуг.',
-    tags: ['B2B', 'Кейс', 'Результаты']
+    title: 'Гид по организации свадьбы',
+    category: 'Лайфстайл',
+    type: 'Статья',
+    description: 'Продающая статья для свадебного журнала о самостоятельной организации свадьбы. Цель — конверсия читателей в покупателей готового чек-листа для подготовки к торжеству.',
+    tags: ['Лайфстайл', 'Продажи', 'Свадьба'],
+    link: 'https://docs.google.com/document/u/0/d/1-8NCDJLTusJIMvszAouKr8PAkay_NQ2weSJwp_emoyo/edit'
   }
 ];
 
-const categories = ['Все', 'Бизнес', 'Образование', 'Маркетинг', 'SMM', 'E-commerce'];
+const categories = ['Все', 'Бизнес', 'Образование', 'IT', 'SMM', 'Лайфстайл'];
 const types = ['Все типы', 'Лендинг', 'Статья', 'Email', 'Посты', 'Товары', 'Кейс'];
 
 export default function Portfolio() {

@@ -157,7 +157,7 @@ export default function Index() {
                 </div>
                 <div>
                   <div className="text-3xl font-bold text-primary mb-1">2</div>
-                  <div className="text-sm text-muted-foreground">Лет опыта</div>
+                  <div className="text-sm text-muted-foreground">года опыта</div>
                 </div>
                 <div>
                   <div className="text-3xl font-bold text-primary mb-1">20+</div>

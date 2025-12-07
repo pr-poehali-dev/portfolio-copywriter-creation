@@ -218,16 +218,14 @@ export default function Index() {
                 <CardContent className="p-6">
                   <Icon name="MessageCircle" size={32} className="text-primary mx-auto mb-4" />
                   <h3 className="font-semibold mb-2">Telegram</h3>
-                  <a href="https://t.me/annacopywriter" className="text-primary hover:underline">
-                    @annacopywriter
-                  </a>
+                  <a href="https://t.me/annacopywriter" className="text-primary hover:underline">@vera_plahinaa</a>
                 </CardContent>
               </Card>
               <Card className="border-border hover:shadow-lg transition-shadow">
                 <CardContent className="p-6">
                   <Icon name="Phone" size={32} className="text-primary mx-auto mb-4" />
                   <h3 className="font-semibold mb-2">Телефон</h3>
-                  <a href="tel:+79991234567" className="text-primary hover:underline">@vera_plahinaa</a>
+                  <a href="tel:+79991234567" className="text-primary hover:underline">8-963-383-0-383</a>
                 </CardContent>
               </Card>
             </div>

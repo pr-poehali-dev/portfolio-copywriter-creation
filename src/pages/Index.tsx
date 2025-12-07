@@ -211,9 +211,7 @@ export default function Index() {
                 <CardContent className="p-6">
                   <Icon name="Mail" size={32} className="text-primary mx-auto mb-4" />
                   <h3 className="font-semibold mb-2">Email</h3>
-                  <a href="mailto:hello@annasmirnova.com" className="text-primary hover:underline">
-                    hello@annasmirnova.com
-                  </a>
+                  <a href="mailto:hello@annasmirnova.com" className="text-primary hover:underline">veraplahina@yandex.ru</a>
                 </CardContent>
               </Card>
               <Card className="border-border hover:shadow-lg transition-shadow">

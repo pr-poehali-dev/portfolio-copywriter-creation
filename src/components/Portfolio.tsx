@@ -81,9 +81,7 @@ export default function Portfolio() {
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-12 animate-fade-in">
           <h2 className="text-4xl md:text-5xl font-bold mb-4 text-foreground">Портфолио</h2>
-          <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Более 300 проектов для брендов из разных сфер
-          </p>
+          <p className="text-lg text-muted-foreground max-w-2xl mx-auto">Более 100 проектов для брендов из разных сфер</p>
         </div>
 
         <div className="mb-10 space-y-6">

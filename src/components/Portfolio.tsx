@@ -44,8 +44,9 @@ const portfolioData: PortfolioItem[] = [
     title: 'Контент для соцсетей',
     category: 'SMM',
     type: 'Посты',
-    description: 'Ежедневные посты для бренда спортивной одежды. Вовлечённость аудитории +120% за 3 месяца.',
-    tags: ['SMM', 'Бренд', 'Engagement']
+    description: 'Ежедневные посты для детского клуба боевых единоборств. Вовлечённость аудитории +120% за 3 месяца.',
+    tags: ['SMM', 'Спорт', 'Детский клуб'],
+    link: 'https://docs.google.com/document/d/1-rhrEoPFOvFaTb15pkZUUXkc7wgpXYTGM1JvyKYIyrM/edit?usp=sharing'
   },
   {
     id: 5,

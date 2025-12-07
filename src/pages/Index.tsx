@@ -215,14 +215,14 @@ export default function Index() {
                 <CardContent className="p-6">
                   <Icon name="Mail" size={32} className="text-primary mx-auto mb-4" />
                   <h3 className="font-semibold mb-2">Email</h3>
-                  <a href="mailto:hello@annasmirnova.com" className="text-primary hover:underline">veraplahina@yandex.ru</a>
+                  <a href="mailto:veraplahina@yandex.ru" className="text-primary hover:underline">veraplahina@yandex.ru</a>
                 </CardContent>
               </Card>
               <Card className="border-border hover:shadow-lg transition-shadow">
                 <CardContent className="p-6">
                   <Icon name="MessageCircle" size={32} className="text-primary mx-auto mb-4" />
                   <h3 className="font-semibold mb-2">Telegram</h3>
-                  <a href="https://t.me/annacopywriter" className="text-primary hover:underline">@vera_plahinaa</a>
+                  <a href="https://t.me/vera_plahinaa" className="text-primary hover:underline" target="_blank" rel="noopener noreferrer">@vera_plahinaa</a>
                 </CardContent>
               </Card>
               <Card className="border-border hover:shadow-lg transition-shadow">
@@ -233,10 +233,12 @@ export default function Index() {
                 </CardContent>
               </Card>
             </div>
-            <Button size="lg" className="text-lg px-8">
-              <Icon name="Send" size={20} className="mr-2" />
-              Написать мне
-            </Button>
+            <a href="https://t.me/vera_plahinaa" target="_blank" rel="noopener noreferrer">
+              <Button size="lg" className="text-lg px-8">
+                <Icon name="Send" size={20} className="mr-2" />
+                Написать мне
+              </Button>
+            </a>
           </div>
         </div>
       </section>

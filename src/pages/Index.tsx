@@ -105,9 +105,7 @@ export default function Index() {
             Тексты, которые<br />
             <span className="text-primary">продают и вдохновляют</span>
           </h1>
-          <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-2xl mx-auto">
-            Профессиональный копирайтер с 8-летним опытом. Создаю контент для бизнеса любого масштаба
-          </p>
+          <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-2xl mx-auto">Копирайтер с 2-летним опытом. Создаю контент для бизнеса любого масштаба</p>
           <div className="flex gap-4 justify-center flex-wrap">
             <Button 
               size="lg" 

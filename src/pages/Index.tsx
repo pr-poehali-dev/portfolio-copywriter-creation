@@ -131,8 +131,12 @@ export default function Index() {
         <div className="max-w-4xl mx-auto">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="animate-fade-in">
-              <div className="w-full aspect-square bg-gradient-to-br from-primary/20 to-primary/5 rounded-2xl flex items-center justify-center">
-                <Icon name="User" size={120} className="text-primary/40" />
+              <div className="w-full aspect-square rounded-2xl overflow-hidden">
+                <img 
+                  src="https://cdn.poehali.dev/files/IMG_1245.JPG" 
+                  alt="Анна Смирнова - копирайтер"
+                  className="w-full h-full object-cover"
+                />
               </div>
             </div>
             <div className="animate-fade-in" style={{ animationDelay: '0.2s' }}>

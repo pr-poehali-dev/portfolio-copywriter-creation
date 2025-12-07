@@ -227,9 +227,7 @@ export default function Index() {
                 <CardContent className="p-6">
                   <Icon name="Phone" size={32} className="text-primary mx-auto mb-4" />
                   <h3 className="font-semibold mb-2">Телефон</h3>
-                  <a href="tel:+79991234567" className="text-primary hover:underline">
-                    +7 (999) 123-45-67
-                  </a>
+                  <a href="tel:+79991234567" className="text-primary hover:underline">@vera_plahinaa</a>
                 </CardContent>
               </Card>
             </div>

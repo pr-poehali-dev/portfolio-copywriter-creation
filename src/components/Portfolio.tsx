@@ -166,10 +166,7 @@ export default function Portfolio() {
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex items-center gap-2 text-primary hover:underline text-sm font-medium"
-                  >
-                    <Icon name="ExternalLink" size={16} />
-                    Читать статью
-                  </a>
+                  >Посмотреть посты</a>
                 )}
               </CardContent>
             </Card>

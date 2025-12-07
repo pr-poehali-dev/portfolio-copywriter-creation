@@ -71,7 +71,7 @@ const portfolioData: PortfolioItem[] = [
 ];
 
 const categories = ['Все', 'Бизнес', 'Образование', 'IT', 'SMM', 'Лайфстайл'];
-const types = ['Все типы', 'Лендинг', 'Статья', 'Email', 'Посты', 'Товары', 'Кейс'];
+const types = ['Все типы', 'Статья', 'Посты'];
 
 export default function Portfolio() {
   const [selectedCategory, setSelectedCategory] = useState('Все');

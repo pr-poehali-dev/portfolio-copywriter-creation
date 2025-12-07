@@ -170,7 +170,7 @@ export default function Portfolio() {
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex items-center gap-2 text-primary hover:underline text-sm font-medium"
-                  >Посмотреть посты</a>
+                  >Читать статью</a>
                 )}
               </CardContent>
             </Card>

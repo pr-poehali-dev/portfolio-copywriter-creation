@@ -73,9 +73,7 @@ export default function Index() {
             <button 
               onClick={() => scrollToSection('home')}
               className="text-2xl font-bold text-foreground hover:text-primary transition-colors"
-            >
-              Анна Смирнова
-            </button>
+            >Вера Плахина</button>
             <div className="hidden md:flex gap-8">
               {[
                 { id: 'home', label: 'Главная' },

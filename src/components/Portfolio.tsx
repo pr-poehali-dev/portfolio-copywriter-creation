@@ -13,14 +13,7 @@ interface PortfolioItem {
 }
 
 const portfolioData: PortfolioItem[] = [
-  {
-    id: 1,
-    title: 'Лендинг для IT-стартапа',
-    category: 'Технологии',
-    type: 'Лендинг',
-    description: 'Продающий текст для стартапа в сфере искусственного интеллекта. Упор на преимущества и простоту внедрения.',
-    tags: ['B2B', 'Tech', 'Продажи']
-  },
+
   {
     id: 2,
     title: 'Статья для бизнес-блога',
@@ -63,7 +56,7 @@ const portfolioData: PortfolioItem[] = [
   }
 ];
 
-const categories = ['Все', 'Технологии', 'Бизнес', 'Маркетинг', 'SMM', 'E-commerce'];
+const categories = ['Все', 'Бизнес', 'Маркетинг', 'SMM', 'E-commerce'];
 const types = ['Все типы', 'Лендинг', 'Статья', 'Email', 'Посты', 'Товары', 'Кейс'];
 
 export default function Portfolio() {
